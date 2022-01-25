@@ -182,7 +182,7 @@ DEPENDENCIES
   byebug
   database_cleaner
   factory_bot_rails (~> 4.0)
-  faker
+  faker (~> 2.1)
   listen (~> 3.2)
   puma (~> 4.1)
   rails (~> 6.0.4, >= 6.0.4.4)
