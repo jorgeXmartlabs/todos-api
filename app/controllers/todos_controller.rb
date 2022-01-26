@@ -1,7 +1,4 @@
 class TodosController < ApplicationController
-  include Response
-  include ExceptionHandler
-
   before_action :set_todo, only: %i[show update destroy]
 
   # GET /todos

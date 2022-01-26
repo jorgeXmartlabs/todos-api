@@ -90,7 +90,7 @@ RSpec.describe 'Todos API', type: :request do
         expect(response.body).to be_empty
       end
 
-      it 'returns status cde 204' do
+      it 'returns status code 204' do
         expect(response).to have_http_status(204)
       end
     end
